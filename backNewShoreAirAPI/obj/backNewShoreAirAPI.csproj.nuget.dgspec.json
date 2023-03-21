@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\backNewShoreAirAPI\\backNewShoreAirAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\backNewShoreAirAPI\\backNewShoreAirAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\backNewShoreAirAPI\\backNewShoreAirAPI.csproj",
+        "projectName": "backNewShoreAirAPI",
+        "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\backNewShoreAirAPI\\backNewShoreAirAPI.csproj",
+        "packagesPath": "C:\\Users\\wialg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\backNewShoreAirAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wialg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj"
+              },
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\BusinessLayer\\BusinessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\BusinessLayer\\BusinessLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj"
+              },
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj",
+        "projectName": "DomainLayer",
+        "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj",
+        "projectName": "ServicesLayer",
+        "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\ServicesLayer\\ServicesLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\wialg\\OneDrive\\Escritorio\\backNewshore_\\backNewShoreAir\\DomainLayer\\DomainLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
